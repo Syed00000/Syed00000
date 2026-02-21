@@ -25,27 +25,4 @@
 
 ---
 
-# 🧠 Most Used Languages (Auto Refresh Enabled)
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed00000&layout=compact&theme=chartreuse-dark&hide_border=true&cache_seconds=30" />
-</p>
-
----
-
-# 🏆 GitHub Trophies (Hacker Matrix Theme)
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Syed00000&theme=matrix&no-frame=true&no-bg=true&margin-w=15&margin-h=15&cache_seconds=30" />
-</p>
-
----
-
-# 🐍 Contribution Snake Animation
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Syed00000/Syed00000/output/github-contribution-grid-snake-dark.svg" />
-</p>
-
----
 
