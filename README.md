@@ -8,53 +8,40 @@
 
 ---
 
-# 🟢 Contribution Graph (Hacker Style)
+# 🟢 Contribution Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Syed00000&theme=github-dark&hide_border=true&area=true&color=00ff00" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Syed00000&theme=github-dark&hide_border=true&area=true" />
 </p>
 
 ---
 
-# 🔥 Lifetime GitHub Stats (Total Commits Included)
+# 🔥 GitHub Stats (Lifetime Commits Included)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Syed00000&show_icons=true&theme=chartreuse-dark&count_private=true&include_all_commits=true" height="180em"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Syed00000&theme=chartreuse-dark" height="180em"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Syed00000&show_icons=true&theme=chartreuse-dark&count_private=true&include_all_commits=true&hide_border=true" height="180em"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Syed00000&theme=chartreuse-dark&hide_border=true" height="180em"/>
 </p>
 
 ---
 
-# 💎 Total Lifetime Contributions Counter
+# 🧠 Most Used Languages (Compact Hacker Style)
 
 <p align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=Syed00000&limit=5&theme=chartreuse-dark&combine_all_yearly_contributions=true" />
-</p>
-
-✔ This includes:
-- Total lifetime commits  
-- Contributions across all years  
-- Repo-wise breakdown  
-
----
-
-# 🧠 Most Used Languages (Glass Style Compact)
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed00000&layout=compact&theme=chartreuse-dark" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed00000&layout=compact&theme=chartreuse-dark&hide_border=true" />
 </p>
 
 ---
 
-# 🏆 GitHub Trophies (Hacker Theme)
+# 🏆 GitHub Trophies (Hacker Matrix Theme)
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Syed00000&theme=matrix&no-frame=true&margin-w=15" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Syed00000&theme=matrix&no-frame=true&no-bg=true&margin-w=15&margin-h=15" />
 </p>
 
 ---
 
-# 🐍 Contribution Snake (Dark Hacker)
+# 🐍 Contribution Snake Animation
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Syed00000/Syed00000/output/github-contribution-grid-snake-dark.svg" />
@@ -65,7 +52,7 @@
 # 💻 Tech Stack
 
 ```bash
-Frontend  : React.js | Next.js | Tailwind | JavaScript
-Backend   : Node.js | Express | MongoDB
-DevOps    : Docker | Linux | Vercel | GitHub Actions
+Frontend  : React.js | Next.js | Tailwind CSS | JavaScript
+Backend   : Node.js | Express.js | MongoDB
+DevOps    : Docker | GitHub Actions | Linux | Vercel
 Tools     : Git | Postman | Firebase
