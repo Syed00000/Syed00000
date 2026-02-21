@@ -16,13 +16,3 @@
 
 ---
 
-# 🔥 GitHub Stats (Lifetime + Auto Refresh)
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Syed00000&show_icons=true&theme=chartreuse-dark&count_private=true&include_all_commits=true&hide_border=true&cache_seconds=2" height="180em"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Syed00000&theme=chartreuse-dark&hide_border=true&cache_seconds=30" height="180em"/>
-</p>
-
----
-
-
