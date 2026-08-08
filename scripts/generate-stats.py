@@ -2,6 +2,7 @@ import json
 import os
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
+from html import escape
 
 USERNAME = "Syed00000"
 TOKEN = os.environ["GH_TOKEN"]
@@ -9,7 +10,7 @@ API = "https://api.github.com/graphql"
 
 
 def github(query, variables):
-    request = urllib.request.Request(
+    req = urllib.request.Request(
         API,
         data=json.dumps({
             "query": query,
@@ -23,25 +24,22 @@ def github(query, variables):
         method="POST"
     )
 
-    with urllib.request.urlopen(request) as response:
-        result = json.loads(response.read())
+    with urllib.request.urlopen(req) as response:
+        data = json.loads(response.read())
 
-    if result.get("errors"):
-        raise RuntimeError(
-            json.dumps(result["errors"], indent=2)
-        )
+    if data.get("errors"):
+        raise RuntimeError(json.dumps(data["errors"], indent=2))
 
-    return result["data"]
+    return data["data"]
 
 
-# ==================================================
-# PROFILE
-# ==================================================
+# ============================================================
+# USER / REPOSITORIES
+# ============================================================
 
 profile_query = """
 query($login: String!) {
   user(login: $login) {
-
     createdAt
 
     publicRepositories: repositories(
@@ -59,7 +57,6 @@ query($login: String!) {
     ) {
       totalCount
     }
-
   }
 }
 """
@@ -69,92 +66,68 @@ user = github(
     {"login": USERNAME}
 )["user"]
 
-created_at = datetime.fromisoformat(
+created = datetime.fromisoformat(
     user["createdAt"].replace("Z", "+00:00")
 ).date()
 
 today = date.today()
 
-public_repos = user[
-    "publicRepositories"
-]["totalCount"]
-
-private_repos = user[
-    "privateRepositories"
-]["totalCount"]
-
-total_repos = (
-    public_repos +
-    private_repos
-)
+public_repos = user["publicRepositories"]["totalCount"]
+private_repos = user["privateRepositories"]["totalCount"]
+total_repos = public_repos + private_repos
 
 
-# ==================================================
-# REPOSITORY LANGUAGES
-# PUBLIC + PRIVATE
-# ==================================================
+# ============================================================
+# GET ALL OWNED REPOSITORIES
+# ============================================================
 
 def get_repositories(privacy):
-
     repositories = []
-
     cursor = None
 
     while True:
-
         query = """
         query(
-          $login: String!,
-          $cursor: String,
-          $privacy: RepositoryPrivacy!
+            $login: String!,
+            $cursor: String,
+            $privacy: RepositoryPrivacy!
         ) {
-
-          user(login: $login) {
-
-            repositories(
-              first: 100
-              after: $cursor
-              ownerAffiliations: OWNER
-              privacy: $privacy
-            ) {
-
-              pageInfo {
-                hasNextPage
-                endCursor
-              }
-
-              nodes {
-
-                languages(
-                  first: 100
-                  orderBy: {
-                    field: SIZE
-                    direction: DESC
-                  }
+            user(login: $login) {
+                repositories(
+                    first: 100
+                    after: $cursor
+                    ownerAffiliations: OWNER
+                    privacy: $privacy
                 ) {
-
-                  edges {
-
-                    size
-
-                    node {
-                      name
+                    pageInfo {
+                        hasNextPage
+                        endCursor
                     }
 
-                  }
+                    nodes {
+                        name
 
+                        languages(
+                            first: 100
+                            orderBy: {
+                                field: SIZE
+                                direction: DESC
+                            }
+                        ) {
+                            edges {
+                                size
+                                node {
+                                    name
+                                }
+                            }
+                        }
+                    }
                 }
-
-              }
-
             }
-
-          }
-
         }
         """
 
-        data = github(
+        result = github(
             query,
             {
                 "login": USERNAME,
@@ -163,68 +136,54 @@ def get_repositories(privacy):
             }
         )["user"]["repositories"]
 
-        repositories.extend(
-            data["nodes"]
-        )
+        repositories.extend(result["nodes"])
 
-        if not data[
-            "pageInfo"
-        ]["hasNextPage"]:
-
+        if not result["pageInfo"]["hasNextPage"]:
             break
 
-        cursor = data[
-            "pageInfo"
-        ]["endCursor"]
+        cursor = result["pageInfo"]["endCursor"]
 
     return repositories
 
 
-all_repositories = (
-    get_repositories("PUBLIC")
-    +
-    get_repositories("PRIVATE")
+public_repository_data = get_repositories("PUBLIC")
+private_repository_data = get_repositories("PRIVATE")
+
+all_repository_data = (
+    public_repository_data +
+    private_repository_data
 )
 
+
+# ============================================================
+# LANGUAGES — PUBLIC + PRIVATE
+# ============================================================
 
 language_sizes = {}
 
+for repo in all_repository_data:
+    for edge in repo["languages"]["edges"]:
 
-for repository in all_repositories:
-
-    for edge in repository[
-        "languages"
-    ]["edges"]:
-
-        language = edge[
-            "node"
-        ]["name"]
+        language = edge["node"]["name"]
+        size = edge["size"]
 
         language_sizes[language] = (
-            language_sizes.get(
-                language,
-                0
-            )
-            +
-            edge["size"]
+            language_sizes.get(language, 0) + size
         )
 
 
-total_language_size = sum(
-    language_sizes.values()
-)
-
+total_language_size = sum(language_sizes.values())
 
 top_languages = sorted(
     language_sizes.items(),
-    key=lambda item: item[1],
+    key=lambda x: x[1],
     reverse=True
 )[:10]
 
 
-# ==================================================
-# CONTRIBUTION HISTORY
-# ==================================================
+# ============================================================
+# CONTRIBUTIONS — YEAR BY YEAR
+# ============================================================
 
 all_days = {}
 
@@ -234,75 +193,51 @@ all_prs = 0
 all_issues = 0
 all_reviews = 0
 
-
-year = created_at.year
-
+year = created.year
 
 while year <= today.year:
 
-    start = date(
-        year,
-        1,
-        1
-    )
-
-    end = min(
-        date(
-            year,
-            12,
-            31
-        ),
-        today
-    )
-
+    start = date(year, 1, 1)
+    end = min(date(year, 12, 31), today)
 
     query = """
     query(
-      $login: String!,
-      $from: DateTime!,
-      $to: DateTime!
+        $login: String!,
+        $from: DateTime!,
+        $to: DateTime!
     ) {
+        user(login: $login) {
 
-      user(login: $login) {
+            contributionsCollection(
+                from: $from
+                to: $to
+            ) {
 
-        contributionsCollection(
-          from: $from
-          to: $to
-        ) {
+                totalCommitContributions
 
-          totalCommitContributions
+                totalPullRequestContributions
 
-          totalPullRequestContributions
+                totalIssueContributions
 
-          totalIssueContributions
+                totalPullRequestReviewContributions
 
-          totalPullRequestReviewContributions
+                contributionCalendar {
 
-          contributionCalendar {
+                    totalContributions
 
-            totalContributions
+                    weeks {
 
-            weeks {
+                        contributionDays {
+                            date
+                            contributionCount
+                        }
 
-              contributionDays {
-
-                date
-
-                contributionCount
-
-              }
-
+                    }
+                }
             }
-
-          }
-
         }
-
-      }
-
     }
     """
-
 
     from_time = datetime.combine(
         start,
@@ -310,13 +245,11 @@ while year <= today.year:
         tzinfo=timezone.utc
     ).isoformat()
 
-
     to_time = datetime.combine(
         end + timedelta(days=1),
         datetime.min.time(),
         tzinfo=timezone.utc
     ).isoformat()
-
 
     collection = github(
         query,
@@ -325,49 +258,27 @@ while year <= today.year:
             "from": from_time,
             "to": to_time
         }
-    )[
-        "user"
-    ][
-        "contributionsCollection"
+    )["user"]["contributionsCollection"]
+
+    all_commits += collection[
+        "totalCommitContributions"
     ]
 
+    all_prs += collection[
+        "totalPullRequestContributions"
+    ]
 
-    all_commits += (
-        collection[
-            "totalCommitContributions"
-        ]
-    )
+    all_issues += collection[
+        "totalIssueContributions"
+    ]
 
+    all_reviews += collection[
+        "totalPullRequestReviewContributions"
+    ]
 
-    all_prs += (
-        collection[
-            "totalPullRequestContributions"
-        ]
-    )
-
-
-    all_issues += (
-        collection[
-            "totalIssueContributions"
-        ]
-    )
-
-
-    all_reviews += (
-        collection[
-            "totalPullRequestReviewContributions"
-        ]
-    )
-
-
-    all_contributions += (
-        collection[
-            "contributionCalendar"
-        ][
-            "totalContributions"
-        ]
-    )
-
+    all_contributions += collection[
+        "contributionCalendar"
+    ]["totalContributions"]
 
     for week in collection[
         "contributionCalendar"
@@ -383,249 +294,138 @@ while year <= today.year:
                 "contributionCount"
             ]
 
-
     year += 1
 
 
-# ==================================================
+# ============================================================
 # CURRENT STREAK
-# ==================================================
+# ============================================================
 
 current_streak = 0
 
 probe = today
 
+if all_days.get(today.isoformat(), 0) == 0:
+    probe = today - timedelta(days=1)
 
-if all_days.get(
-    today.isoformat(),
-    0
-) == 0:
-
-    probe = (
-        today -
-        timedelta(days=1)
-    )
-
-
-while all_days.get(
-    probe.isoformat(),
-    0
-) > 0:
+while all_days.get(probe.isoformat(), 0) > 0:
 
     current_streak += 1
 
     probe -= timedelta(days=1)
 
 
-# ==================================================
+# ============================================================
 # LONGEST STREAK
-# ==================================================
+# ============================================================
 
 longest_streak = 0
+running = 0
+previous = None
 
-running_streak = 0
+for day_string in sorted(all_days):
 
-previous_day = None
+    current = date.fromisoformat(day_string)
 
+    count = all_days[day_string]
 
-for day_string in sorted(
-    all_days
-):
-
-    current_day = date.fromisoformat(
-        day_string
-    )
-
-    contribution_count = (
-        all_days[
-            day_string
-        ]
-    )
-
-
-    if contribution_count > 0:
+    if count > 0:
 
         if (
-            previous_day
-            is not None
-            and
-            current_day ==
-            previous_day +
-            timedelta(days=1)
+            previous is not None
+            and current == previous + timedelta(days=1)
         ):
-
-            running_streak += 1
-
+            running += 1
         else:
-
-            running_streak = 1
-
+            running = 1
 
         longest_streak = max(
             longest_streak,
-            running_streak
+            running
         )
 
-
-        previous_day = (
-            current_day
-        )
-
+        previous = current
 
     else:
 
-        running_streak = 0
-
-        previous_day = None
-
-
-# ==================================================
-# SVG ESCAPE
-# ==================================================
-
-def escape(value):
-
-    return (
-        str(value)
-        .replace("&", "&amp;")
-        .replace("<", "&lt;")
-        .replace(">", "&gt;")
-        .replace('"', "&quot;")
-    )
+        running = 0
+        previous = None
 
 
-# ==================================================
+# ============================================================
 # SVG
-# ==================================================
+# ============================================================
 
 WIDTH = 1000
 HEIGHT = 720
 
-
 svg = []
 
-
-svg.append(
-f"""
+svg.append(f"""
 <svg
+xmlns="http://www.w3.org/2000/svg"
 width="{WIDTH}"
 height="{HEIGHT}"
-viewBox="0 0 {WIDTH} {HEIGHT}"
-xmlns="http://www.w3.org/2000/svg">
+viewBox="0 0 {WIDTH} {HEIGHT}">
 
 <rect
-width="{WIDTH}"
-height="{HEIGHT}"
+width="100%"
+height="100%"
 rx="24"
 fill="#0d1117"
 stroke="#30363d"/>
 
-
 <text
 x="48"
-y="55"
+y="52"
 font-family="Arial,sans-serif"
 font-size="30"
 font-weight="700"
 fill="#2ea44f">
-
 GitHub Statistics
-
 </text>
-
 
 <text
 x="48"
-y="84"
+y="82"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-
-@{USERNAME} • Automatically Updated
-
+@{USERNAME} • Dynamic GitHub Data
 </text>
-"""
-)
+""")
 
 
-# ==================================================
+# ============================================================
 # STAT CARDS
-# ==================================================
+# ============================================================
 
 cards = [
-
-    (
-        "All-time Commits",
-        all_commits
-    ),
-
-    (
-        "All Contributions",
-        all_contributions
-    ),
-
-    (
-        "All Repositories",
-        total_repos
-    ),
-
-    (
-        "Public Repos",
-        public_repos
-    ),
-
-    (
-        "Private Repos",
-        private_repos
-    ),
-
-    (
-        "Current Streak",
-        f"{current_streak} days"
-    ),
-
-    (
-        "Longest Streak",
-        f"{longest_streak} days"
-    ),
-
-    (
-        "Pull Requests",
-        all_prs
-    )
-
+    ("All-time Commits", all_commits),
+    ("All Contributions", all_contributions),
+    ("Total Repositories", total_repos),
+    ("Public Repositories", public_repos),
+    ("Private Repositories", private_repos),
+    ("Current Streak", f"{current_streak} days"),
+    ("Longest Streak", f"{longest_streak} days"),
+    ("Pull Requests", all_prs),
 ]
-
 
 positions = [
+    (48, 120),
+    (280, 120),
+    (512, 120),
+    (744, 120),
 
-    (48, 125),
-    (280, 125),
-    (512, 125),
-    (744, 125),
-
-    (48, 225),
-    (280, 225),
-    (512, 225),
-    (744, 225)
-
+    (48, 220),
+    (280, 220),
+    (512, 220),
+    (744, 220),
 ]
 
+for (label, value), (x, y) in zip(cards, positions):
 
-for (
-    label,
-    value
-), (
-    x,
-    y
-) in zip(
-    cards,
-    positions
-):
-
-
-    svg.append(
-f"""
+    svg.append(f"""
 <rect
 x="{x}"
 y="{y}"
@@ -635,57 +435,45 @@ rx="14"
 fill="#161b22"
 stroke="#30363d"/>
 
-
 <text
 x="{x + 16}"
 y="{y + 27}"
 font-family="Arial,sans-serif"
 font-size="13"
 fill="#8b949e">
-
-{escape(label)}
-
+{escape(str(label))}
 </text>
-
 
 <text
 x="{x + 16}"
 y="{y + 59}"
 font-family="Arial,sans-serif"
-font-size="24"
+font-size="23"
 font-weight="700"
 fill="#ffffff">
-
-{escape(value)}
-
+{escape(str(value))}
 </text>
-"""
-    )
+""")
 
 
-# ==================================================
+# ============================================================
 # TOP LANGUAGES
-# ==================================================
+# ============================================================
 
-svg.append(
-"""
+svg.append("""
 <text
 x="48"
-y="345"
+y="340"
 font-family="Arial,sans-serif"
 font-size="21"
 font-weight="700"
 fill="#ffffff">
-
 Top Languages
-
 </text>
-"""
-)
+""")
 
 
-language_colors = [
-
+colors = [
     "#f1e05a",
     "#3178c6",
     "#e34c26",
@@ -695,124 +483,77 @@ language_colors = [
     "#da5b0b",
     "#178600",
     "#b07219",
-    "#701516"
-
+    "#701516",
 ]
 
 
-bar_x = 48
-bar_y = 375
-bar_width = 904
-bar_height = 16
+# Language percentage bar
 
+bar_x = 48
+bar_y = 370
+bar_width = 904
+bar_height = 18
 
 if total_language_size > 0:
 
-    x_position = bar_x
+    current_x = bar_x
 
-
-    for index, (
-        language,
-        size
-    ) in enumerate(
-        top_languages
-    ):
+    for index, (language, size) in enumerate(top_languages):
 
         width = (
-            bar_width
-            *
-            size
-            /
+            bar_width *
+            size /
             total_language_size
         )
 
-
-        if width < 1:
-
+        if width <= 0:
             continue
 
-
-        svg.append(
-f"""
+        svg.append(f"""
 <rect
-x="{x_position:.2f}"
+x="{current_x:.2f}"
 y="{bar_y}"
 width="{width:.2f}"
 height="{bar_height}"
-fill="{language_colors[index % len(language_colors)]}"/>
-"""
-        )
+fill="{colors[index % len(colors)]}"/>
+""")
+
+        current_x += width
 
 
-        x_position += width
-
-
-# ==================================================
+# ============================================================
 # LANGUAGE LIST
-# ==================================================
+# ============================================================
 
-for index, (
-    language,
-    size
-) in enumerate(
-    top_languages
-):
-
+for index, (language, size) in enumerate(top_languages):
 
     percentage = (
-
-        size
-        /
-        total_language_size
-        *
-        100
-
-        if total_language_size
-
+        (size / total_language_size) * 100
+        if total_language_size > 0
         else 0
-
     )
-
 
     column = index % 2
-
     row = index // 2
 
+    x = 48 + (column * 452)
+    y = 415 + (row * 38)
 
-    x = (
-        48
-        +
-        column * 452
-    )
-
-
-    y = (
-        425
-        +
-        row * 35
-    )
-
-
-    svg.append(
-f"""
+    svg.append(f"""
 <circle
-cx="{x + 6}"
+cx="{x + 7}"
 cy="{y - 5}"
 r="6"
-fill="{language_colors[index % len(language_colors)]}"/>
-
+fill="{colors[index % len(colors)]}"/>
 
 <text
-x="{x + 20}"
+x="{x + 22}"
 y="{y}"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#ffffff">
-
 {escape(language)}
-
 </text>
-
 
 <text
 x="{x + 410}"
@@ -821,73 +562,56 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-
 {percentage:.2f}%
-
 </text>
-"""
-    )
+""")
 
 
-# ==================================================
+# ============================================================
 # FOOTER
-# ==================================================
+# ============================================================
 
-svg.append(
-f"""
+svg.append(f"""
 <text
 x="48"
 y="695"
 font-family="Arial,sans-serif"
 font-size="13"
 fill="#8b949e">
-
-Issues: {all_issues} •
-Reviews: {all_reviews} •
-Languages: Public + Private repositories
-
+Issues: {all_issues} • Reviews: {all_reviews} • Languages: Public + Private
 </text>
 
-
 </svg>
-"""
-)
+""")
 
 
-# ==================================================
-# SAVE
-# ==================================================
+# ============================================================
+# WRITE FILE
+# ============================================================
 
-os.makedirs(
-    "assets",
-    exist_ok=True
-)
-
+os.makedirs("assets", exist_ok=True)
 
 with open(
     "assets/github-stats.svg",
     "w",
     encoding="utf-8"
-) as file:
+) as f:
 
-    file.write(
-        "\n".join(svg)
-    )
+    f.write("\n".join(svg))
 
 
-print("")
-print("========================================")
-print("        GITHUB STATS UPDATED")
-print("========================================")
-print("Repositories:", total_repos)
-print("Public repos:", public_repos) 
-print("Private repos:", private_repos)
-print("All-time commits:", all_commits) 
-print("All contributions:", all_contributions)
-print("Current streak:", current_streak)
-print("Longest streak:", longest_streak)
-print("Pull requests:", all_prs)
-print("Issues:", all_issues)
-print("Reviews:", all_reviews)
-print("Top languages:", top_languages)
-print("========================================")
+print("==========================================")
+print("       GITHUB STATS GENERATED")
+print("==========================================")
+print("Total repositories :", total_repos)
+print("Public repositories:", public_repos)
+print("Private repositories:", private_repos)
+print("All-time commits   :", all_commits)
+print("All contributions  :", all_contributions)
+print("Current streak     :", current_streak)
+print("Longest streak     :", longest_streak)
+print("Pull requests      :", all_prs)
+print("Issues             :", all_issues)
+print("Reviews            :", all_reviews)
+print("Top languages      :", top_languages)
+print("==========================================")
