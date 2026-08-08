@@ -4,7 +4,7 @@
 
 <div align="center">
 
-  <h2>📊 GitHub Statistics</h2>
+ 
 
   <img
     src="./assets/github-stats.svg"
@@ -13,13 +13,7 @@
 
   <br/><br/>
 
-  <img
-    src="https://skillicons.dev/icons?i=javascript"
-    height="45"
-    alt="JavaScript"
-  />
-
-</div>
+ 
 
 ---
 
