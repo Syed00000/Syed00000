@@ -1,148 +1,265 @@
-# Hi, I'm Syed 👋
+# 👋 Hi, I'm Syed Imran Hassan
 
-### Full-Stack Developer · React · Next.js · Node.js · AWS
+### Full-Stack Developer · MERN Stack · Next.js · Team Lead · Founder
 
-I’m a Full-Stack Developer focused on building modern, scalable, and production-ready web applications.
+<div align="center">
 
-My primary ecosystem revolves around **JavaScript/TypeScript, React, Next.js, Node.js, databases, APIs, and cloud infrastructure**. I enjoy working across the stack — from responsive interfaces and application architecture to backend services, databases, deployment, and cloud infrastructure.
+## 📊 GitHub Statistics
+
+<img src="https://github-readme-stats.vercel.app/api?username=Syed00000&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" height="180"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed00000&layout=compact&theme=transparent&hide_border=true&langs_count=8&count_private=true" height="180"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=Syed00000&theme=transparent&hide_border=true" />
+
+</div>
 
 ---
 
 ## 👨‍💻 About Me
 
-* 💻 Full-Stack Web Developer
-* ⚛️ Strong focus on **React & Next.js**
-* 🟢 Backend development with **Node.js**
-* ☁️ Experience working with **AWS & cloud-based infrastructure**
-* 🗄️ Working with **SQL & NoSQL databases**
-* 🔌 Building APIs, integrations, and backend services
-* 🤖 Exploring **AI & Prompt Engineering**
-* 📚 Continuously learning modern development practices
-* 🏗️ Interested in scalable and maintainable application architecture
+I'm a **Full-Stack Software Developer and Team Lead** with **2+ years of hands-on experience** building and shipping scalable web applications.
+
+My core stack is centered around **React.js, Next.js, Node.js, Express.js, MongoDB, and SQL**, with experience taking products from requirements and system design through development, deployment, and post-launch support.
+
+I also lead development teams, manage client projects, review code, coordinate sprints, and work across the complete product lifecycle.
+
+* ⚛️ Full-Stack Software Developer
+* ▲ Strong focus on **Next.js & React.js**
+* 🟢 Backend development with **Node.js & Express.js**
+* 🗄️ MongoDB, Mongoose, Prizma & SQL   
+* ☁️ AWS, Vercel & cloud deployment
+* 🚀 Performance, SEO & Core Web Vitals
+* 👥 Team Leadership & Project Management
+* 🤝 Client Communication & Requirement Gathering
+* 🤖 Agentic Workflow adapter
+
+---
+
+## 💼 Experience
+
+### 💻 Software Engineer & Project Lead — Orion Digital
+
+**Freelance · Remote · Mumbai**
+
+Work as a Software Engineer and Project Lead, contributing to the development and delivery of web applications while coordinating technical execution across projects.
+
+Develop and maintain modern full-stack applications using React.js, Next.js, Node.js, and related technologies.
+Lead project-level technical execution, architecture decisions, and development workflows.
+Coordinate tasks, timelines, and technical requirements to ensure smooth project delivery.
+Collaborate with clients and team members on requirements, implementation, debugging, and production support.
+Focus on scalable architecture, performance, clean code, and maintainable solutions.
+
+---
+
+### 🚀 Founder & Managing Director — code2cash
+
+**Oct 2024 – Present · Patna**
+
+Founded and scaled a full-stack web agency, leading a **20-member team** delivering MERN and Next.js solutions for clients across India and the UAE.
+
+Responsible for client lifecycle management, project scoping, sprint planning, code reviews, deployment, and post-launch support.
+
+---
+
+### 💻 Full-Stack Developer — iMEQ Communications
+
+**Apr 2026 – Present · Hyderabad**
+
+Built a complete **Next.js + Tailwind CSS** website for a Hyderabad-based PR and digital marketing agency.
+
+Focused on SEO, performance, responsive design, lazy loading, code splitting, CMS-ready architecture, and lead-capture integrations.
+
+---
+
+### 🌐 Tech Team — Web Developer, Google Developer's Group Patna
+
+**Dec 2025 – Present · Patna**
+
+Architected and shipped the official **DevFest Patna 2025** website, serving an event with **1,000+ attendees**.
+
+Worked on speaker listings, schedules, registration flows, responsive UI, and event infrastructure.
+
+---
+
+### 🧑‍💻 Software Developer — Lowkot
+
+**Jan 2026 – Mar 2026 · Dubai, UAE · Remote**
+
+Developed and maintained MERN-stack application modules for a UAE-based client while collaborating remotely with an international team.
+
+---
+
+### 👨‍💼 Full-Stack Developer & Team Leader — Quantum Brize
+
+**May 2024 – Sep 2024 · Kolkata**
+
+Led development teams across multiple projects, working on Node.js/Express.js backends, MongoDB architecture, API security, sprint coordination, and production deployment.
 
 ---
 
 ## 🧰 Tech Stack
 
-### Frontend
+### 🎨 Frontend
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript\&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square\&logo=react\&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square\&logo=next.js\&logoColor=white)
-
-### Backend
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square\&logo=node.js\&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square\&logo=express\&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20APIs-02569B?style=flat-square)
-
-### Database
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square\&logo=mongodb\&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square\&logo=postgresql\&logoColor=white)
-
-### Cloud & DevOps
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square\&logo=amazon-aws\&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)
-
-### AI & Other Interests
-
-`AI` · `Prompt Engineering` · `APIs` · `Automation` · `Cloud Computing`
-
----
-
-## 📊 GitHub Statistics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Syed00000&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" height="170"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed00000&layout=compact&hide_border=true&langs_count=8&count_private=true" height="170"/>
-
-</div>
-
----
-
-## 🔥 Contribution Activity
-
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Syed00000\&hide_border=true)
-
-</div>
-
----
-
-## 📈 Development Focus
-
-| Area         | Focus                                  |
-| ------------ | -------------------------------------- |
-| Frontend     | React, Next.js, JavaScript, TypeScript |
-| Backend      | Node.js, APIs, Server-side Development |
-| Database     | SQL, NoSQL, Data Modeling              |
-| Cloud        | AWS, Deployment, Cloud Infrastructure  |
-| Architecture | Scalable & Maintainable Applications   |
-| AI           | AI Tools & Prompt Engineering          |
-
----
-
-## 🧠 What I Work With
-
-```text
-Frontend
-    ├── React
-    ├── Next.js
-    ├── JavaScript
-    └── TypeScript
-
-Backend
-    ├── Node.js
-    ├── APIs
-    └── Server-side Applications
-
-Data
-    ├── SQL
-    └── NoSQL
-
-Cloud
-    └── AWS
-
-Development
-    ├── Git
-    ├── GitHub
-    ├── API Integrations
-    └── AI / Prompt Engineering
-```
-
----
-
-## 🚀 Development Philosophy
-
-I focus on building software that is:
-
-**Clean · Scalable · Maintainable · Performant · Practical**
-
-I believe good development is not just about writing code — it's about understanding the problem, designing the right solution, and building something that can evolve over time.
-
----
-
-## 🌐 Connect
-
-<p align="left">
-  <a href="https://github.com/Syed00000">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
+<p>
+<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,redux," />
 </p>
 
+**React.js · Next.js · JavaScript · TypeScript · HTML5 · CSS3 · Tailwind CSS · Bootstrap · Redux Toolkit · Context API · React Query · Axios**
+
+---
+
+### ⚙️ Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,php,laravel" />
+</p>
+
+**Node.js · Express.js · PHP · Laravel · REST APIs · API Integration · JWT · RBAC · CRUD · Middleware · Input Validation · API Security**
+
+---
+
+### 🗄️ Databases
+
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres" />
+</p>
+
+**MongoDB · Mongoose · MySQL · SQL · Database Design**
+
+---
+
+### ☁️ Cloud, Deployment & Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=aws,vercel,git,github,postman,vscode" />
+</p>
+
+**AWS · Vercel · Render · Git · GitHub · Postman · VS Code · CI/CD · Deployment · Chrome DevTools**
+
+---
+
+### 📈 Performance & SEO
+
+**SEO · Core Web Vitals · Lazy Loading · Code Splitting · Image Optimisation · Memoization · Debouncing · Throttling · Skeleton Loaders · Performance Monitoring · Google Analytics · Search Console**
+
+---
+
+## 🔐 Engineering
+
+I work across both product development and engineering infrastructure, including:
+
+* 🔑 JWT authentication
+* 🛡️ Role-Based Access Control (RBAC)
+* 🔒 Protected routes & secure route handling
+* 🔌 RESTful API architecture
+* 🧩 Reusable component systems
+* 🏗️ Backend architecture
+* 🗃️ Database modelling
+* ⚡ Performance optimisation
+* 🐛 Production debugging & error handling
+* 📝 Logging & monitoring
+* 🚀 Deployment & post-launch support
+
+---
+
+## 👥 Leadership & Product
+
+Beyond coding, I have experience with:
+
+* 👨‍💼 Team Leadership
+* 📋 Project Management
+* 🗣️ Client Communication
+* 📝 Requirement Gathering
+* 🎯 Task Delegation
+* 🔄 Sprint Planning
+* 🤝 Cross-Functional Collaboration
+* 🧠 Product Thinking
+* ⚡ Ownership & Execution
+
+---
+
+## 🏆 Achievements
+
+🏆 **Winner — SIH Internal Hackathon 2025**
+Selected as the top team demonstrating full-stack innovation under competitive conditions.
+
+🏆 **Winner — Dell India Competition**
+Recognised by Dell India for outstanding technical project and problem-solving.
+
+🎓 **JEE Qualified**
+Cleared JEE and other national & state-level engineering entrance examinations.
+
+
+
+---
+
+## 🎓 Education
+
+### Ex- NIT Durgapur
+
+### B.Tech — Computer Science & Engineering
+
+**Expected 2028**
+
+---
+
+## 📊 Developer Profile
+
+<div align="center">
+
+|        Area        | Focus                                            |
+| :----------------: | :----------------------------------------------- |
+|   🎨 **Frontend**  | React.js · Next.js · JavaScript · TypeScript     |
+|   ⚙️ **Backend**   | Node.js · Express.js · PHP · Laravel             |
+|  🗄️ **Database**  | MongoDB · MySQL · SQL                            |
+|    ☁️ **Cloud**    | AWS · Vercel · Render                            |
+|   🔐 **Security**  | JWT · RBAC · Protected Routes                    |
+| 🚀 **Performance** | SEO · Core Web Vitals · Code Splitting           |
+|  👥 **Leadership** | Team Lead · Project Management · Client Handling |
+|      🤖 **AI**     | AI Tools · Prompt Engineering                    |
+
+</div>
+
+---
+
+## 📈 GitHub Activity
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Syed00000&theme=github_dark" />
+
+</div>
+
+---
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+<a href="https://github.com/Syed00000">
+<img src="https://img.shields.io/badge/GitHub-Syed00000-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://www.linkedin.com/in/syed-hassan-8619162b9/">
+<img src="https://img.shields.io/badge/LinkedIn-Syed%20Hassan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:syedimranh59@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</div>
+
 ---
 
 <div align="center">
 
-### Building. Learning. Improving.
+### Building products. Leading teams. Solving problems.
 
-**Thanks for visiting my profile.**
+**Thanks for visiting my profile.** 
 
 </div>
