@@ -15,19 +15,21 @@ permissions:
 
 jobs:
   update-stats:
+
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate GitHub Stats
+      - name: Generate dynamic GitHub stats
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           python scripts/generate-stats.py
 
-      - name: Commit updated stats
+      - name: Commit updated statistics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
