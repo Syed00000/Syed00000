@@ -1,0 +1,91 @@
+<svg width="900" height="250"
+viewBox="0 0 900 250"
+xmlns="http://www.w3.org/2000/svg">
+
+<rect width="900" height="250" rx="20"
+fill="#0d1117"
+stroke="#30363d"/>
+
+<text x="40" y="50"
+font-family="Arial"
+font-size="26"
+font-weight="bold"
+fill="#2ea44f">
+GitHub Statistics
+</text>
+
+<text x="40" y="82"
+font-family="Arial"
+font-size="15"
+fill="#8b949e">
+@Syed00000 • Automatically Updated
+</text>
+
+<text x="55" y="135"
+font-family="Arial"
+font-size="15"
+fill="#8b949e">
+Projects
+</text>
+
+<text x="55" y="170"
+font-family="Arial"
+font-size="28"
+font-weight="bold"
+fill="#ffffff">
+19
+</text>
+
+<text x="240" y="135"
+font-family="Arial"
+font-size="15"
+fill="#8b949e">
+Commits
+</text>
+
+<text x="240" y="170"
+font-family="Arial"
+font-size="28"
+font-weight="bold"
+fill="#ffffff">
+2662
+</text>
+
+<text x="425" y="135"
+font-family="Arial"
+font-size="15"
+fill="#8b949e">
+Contributions
+</text>
+
+<text x="425" y="170"
+font-family="Arial"
+font-size="28"
+font-weight="bold"
+fill="#ffffff">
+2799
+</text>
+
+<text x="650" y="135"
+font-family="Arial"
+font-size="15"
+fill="#8b949e">
+Pull Requests
+</text>
+
+<text x="650" y="170"
+font-family="Arial"
+font-size="28"
+font-weight="bold"
+fill="#ffffff">
+91
+</text>
+
+<text x="40" y="220"
+font-family="Arial"
+font-size="13"
+fill="#8b949e">
+Issues: 3 • Reviews: 3
+</text>
+
+</svg>
