@@ -7,31 +7,15 @@
 ## 📊 GitHub Statistics
 
 <!-- JavaScript -->
+
+### Top Language 
 <a href="https://github.com/Syed00000">
   <img src="https://skillicons.dev/icons?i=javascript" height="48" alt="JavaScript"/>
 </a>
 
 <br/><br/>
 
-<!-- Dynamic GitHub Stats -->
-<a href="https://github.com/Syed00000">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=Syed00000&show_icons=true&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=2ea44f&text_color=8b949e&icon_color=2ea44f"
-    height="180"
-    alt="GitHub Stats"
-  />
-</a>
 
-<!-- Dynamic Top Languages -->
-<a href="https://github.com/Syed00000">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed00000&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=2ea44f&text_color=8b949e&icon_color=2ea44f"
-    height="180"
-    alt="Top Languages"
-  />
-</a>
-
-<br/><br/>
 
 <!-- Dynamic Current + Longest Streak -->
 <img
