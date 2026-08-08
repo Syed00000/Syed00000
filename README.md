@@ -6,13 +6,26 @@
 
 ## 📊 GitHub Statistics
 
-<img src="https://github-readme-stats.vercel.app/api?username=Syed00000&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" height="180"/>
+<div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed00000&layout=compact&theme=transparent&hide_border=true&langs_count=8&count_private=true" height="180"/>
+<img
+  src="https://github-readme-stats.vercel.app/api?username=Syed00000&show_icons=true&hide_border=true&bg_color=00000000&title_color=2ea44f&text_color=8b949e&icon_color=2ea44f&ring_color=2ea44f&include_all_commits=true&count_private=true"
+  height="180"
+/>
+
+<img
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed00000&layout=compact&hide_border=true&bg_color=00000000&title_color=2ea44f&text_color=8b949e&icon_color=2ea44f&count_private=true&langs_count=8"
+  height="180"
+/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=Syed00000&theme=transparent&hide_border=true" />
+<img
+  src="https://streak-stats.demolab.com?user=Syed00000&hide_border=true&background=00000000&ring=2ea44f&fire=2ea44f&currStreakLabel=2ea44f&sideLabels=2ea44f&currStreakNum=2ea44f&sideNums=8b949e&dates=8b949e"
+  height="180"
+/>
+
+</div>
 
 </div>
 
