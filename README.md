@@ -10,21 +10,8 @@
 
   <h2>📊 GitHub Statistics</h2>
 
-  <!-- GitHub Stats -->
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=Syed00000&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=2ea44f&text_color=8b949e&icon_color=2ea44f"
-    height="180"
-    alt="GitHub Stats"
-  />
-
-  <!-- Top Languages -->
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed00000&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=2ea44f&text_color=8b949e&icon_color=2ea44f"
-    height="180"
-    alt="Top Languages"
-  />
-
-  <br/><br/>
+ 
+ 
 
   <!-- GitHub Streak -->
   <img
