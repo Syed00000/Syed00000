@@ -4,17 +4,34 @@
 
 <div align="center">
 
+<!-- 📊 GitHub Statistics -->
+
 <div align="center">
 
   <h2>📊 GitHub Statistics</h2>
 
-  <img src="https://github-readme-stats.vercel.app/api?username=Syed00000&show_icons=true&hide_border=true&bg_color=00000000&title_color=2ea44f&text_color=8b949e&icon_color=2ea44f&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats"/>
+  <!-- GitHub Stats -->
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Syed00000&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=2ea44f&text_color=8b949e&icon_color=2ea44f"
+    height="180"
+    alt="GitHub Stats"
+  />
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed00000&layout=compact&hide_border=true&bg_color=00000000&title_color=2ea44f&text_color=8b949e&langs_count=8&count_private=true" height="180" alt="Top Languages"/>
+  <!-- Top Languages -->
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed00000&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=2ea44f&text_color=8b949e&icon_color=2ea44f"
+    height="180"
+    alt="Top Languages"
+  />
 
-  <br/>
+  <br/><br/>
 
-  <img src="https://streak-stats.demolab.com?user=Syed00000&background=00000000&hide_border=true&ring=2ea44f&fire=2ea44f&currStreakLabel=2ea44f&sideLabels=2ea44f&currStreakNum=2ea44f&sideNums=2ea44f&dates=8b949e" height="180" alt="GitHub Streak"/>
+  <!-- GitHub Streak -->
+  <img
+    src="https://streak-stats.demolab.com?user=Syed00000&hide_border=true&background=00000000&ring=2ea44f&fire=2ea44f&currStreakLabel=2ea44f&sideLabels=2ea44f&currStreakNum=2ea44f&sideNums=2ea44f&dates=8b949e"
+    height="180"
+    alt="GitHub Streak"
+  />
 
 </div>
 
