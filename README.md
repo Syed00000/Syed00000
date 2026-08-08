@@ -4,25 +4,20 @@
 
 <div align="center">
 
-## 📊 GitHub Statistics
+  <h2>📊 GitHub Statistics</h2>
 
-<!-- JavaScript -->
+  <img
+    src="./assets/github-stats.svg"
+    alt="GitHub Statistics"
+  />
 
-### Top Language 
-<a href="https://github.com/Syed00000">
-  <img src="https://skillicons.dev/icons?i=javascript" height="48" alt="JavaScript"/>
-</a>
+  <br/><br/>
 
-<br/><br/>
-
-
-
-<!-- Dynamic Current + Longest Streak -->
-<img
-  src="https://streak-stats.demolab.com?user=Syed00000&hide_border=true&background=00000000&ring=2ea44f&fire=2ea44f&currStreakLabel=2ea44f&sideLabels=2ea44f&currStreakNum=2ea44f&sideNums=2ea44f&dates=8b949e"
-  height="180"
-  alt="GitHub Contribution Streak"
-/>
+  <img
+    src="https://skillicons.dev/icons?i=javascript"
+    height="45"
+    alt="JavaScript"
+  />
 
 </div>
 
