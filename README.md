@@ -1,6 +1,6 @@
-# 👋 Hi, I'm Syed Imran Hassan
+# Hi, I'm Syed Imran Hassan
 
-### Full-Stack Developer · MERN Stack · Next.js · Team Lead · Founder
+### Full-Stack Software Developer · Team Lead · Founder
 
 <div align="center">
 
@@ -34,7 +34,7 @@ I also lead development teams, manage client projects, review code, coordinate s
 * 🚀 Performance, SEO & Core Web Vitals
 * 👥 Team Leadership & Project Management
 * 🤝 Client Communication & Requirement Gathering
-* 🤖 Agentic Workflow adapter
+* 🤖 Agentic Workflow adapter 
 
 ---
 
@@ -144,7 +144,7 @@ Led development teams across multiple projects, working on Node.js/Express.js ba
 
 ### 📈 Performance & SEO
 
-**SEO · Core Web Vitals · Lazy Loading · Code Splitting · Image Optimisation · Memoization · Debouncing · Throttling · Skeleton Loaders · Performance Monitoring · Google Analytics · Search Console**
+**SEO · Core Web Vitals · Lazy Loading · Code Splitting · Image Optimization · Memoization · Debouncing · Throttling · Skeleton Loaders · Performance Monitoring · Google Analytics · Search Console**
 
 ---
 
@@ -159,7 +159,7 @@ I work across both product development and engineering infrastructure, including
 * 🧩 Reusable component systems
 * 🏗️ Backend architecture
 * 🗃️ Database modelling
-* ⚡ Performance optimisation
+* ⚡ Performance optimization
 * 🐛 Production debugging & error handling
 * 📝 Logging & monitoring
 * 🚀 Deployment & post-launch support
@@ -207,24 +207,6 @@ Cleared JEE and other national & state-level engineering entrance examinations.
 
 ---
 
-## 📊 Developer Profile
-
-<div align="center">
-
-|        Area        | Focus                                            |
-| :----------------: | :----------------------------------------------- |
-|   🎨 **Frontend**  | React.js · Next.js · JavaScript · TypeScript     |
-|   ⚙️ **Backend**   | Node.js · Express.js · PHP · Laravel             |
-|  🗄️ **Database**  | MongoDB · MySQL · SQL                            |
-|    ☁️ **Cloud**    | AWS · Vercel · Render                            |
-|   🔐 **Security**  | JWT · RBAC · Protected Routes                    |
-| 🚀 **Performance** | SEO · Core Web Vitals · Code Splitting           |
-|  👥 **Leadership** | Team Lead · Project Management · Client Handling |
-|      🤖 **AI**     | AI Tools · Prompt Engineering                    |
-
-</div>
-
----
 
 ## 📈 GitHub Activity
 
