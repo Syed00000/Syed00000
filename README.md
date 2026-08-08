@@ -4,23 +4,41 @@
 
 <div align="center">
 
-<!-- 📊 GitHub Statistics -->
+## 📊 GitHub Statistics
 
-<div align="center">
+<!-- JavaScript -->
+<a href="https://github.com/Syed00000">
+  <img src="https://skillicons.dev/icons?i=javascript" height="48" alt="JavaScript"/>
+</a>
 
-  <h2>📊 GitHub Statistics</h2>
+<br/><br/>
 
- 
- 
-
-  <!-- GitHub Streak -->
+<!-- Dynamic GitHub Stats -->
+<a href="https://github.com/Syed00000">
   <img
-    src="https://streak-stats.demolab.com?user=Syed00000&hide_border=true&background=00000000&ring=2ea44f&fire=2ea44f&currStreakLabel=2ea44f&sideLabels=2ea44f&currStreakNum=2ea44f&sideNums=2ea44f&dates=8b949e"
+    src="https://github-readme-stats.vercel.app/api?username=Syed00000&show_icons=true&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=2ea44f&text_color=8b949e&icon_color=2ea44f"
     height="180"
-    alt="GitHub Streak"
+    alt="GitHub Stats"
   />
+</a>
 
-</div>
+<!-- Dynamic Top Languages -->
+<a href="https://github.com/Syed00000">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed00000&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=2ea44f&text_color=8b949e&icon_color=2ea44f"
+    height="180"
+    alt="Top Languages"
+  />
+</a>
+
+<br/><br/>
+
+<!-- Dynamic Current + Longest Streak -->
+<img
+  src="https://streak-stats.demolab.com?user=Syed00000&hide_border=true&background=00000000&ring=2ea44f&fire=2ea44f&currStreakLabel=2ea44f&sideLabels=2ea44f&currStreakNum=2ea44f&sideNums=2ea44f&dates=8b949e"
+  height="180"
+  alt="GitHub Contribution Streak"
+/>
 
 </div>
 
