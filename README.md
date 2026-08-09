@@ -105,7 +105,7 @@ Led development teams across multiple projects, working on Node.js/Express.js ba
 ### 🎨 Frontend
 
 <p>
-<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,redux," />
+<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,redux,figma" />
 </p>
 
 **React.js · Next.js · JavaScript · TypeScript · HTML5 · CSS3 · Tailwind CSS · Bootstrap · Redux Toolkit · Context API · React Query · Axios**
