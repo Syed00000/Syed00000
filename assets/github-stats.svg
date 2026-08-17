@@ -57,7 +57,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-2845
+2854
 </text>
 
 
@@ -86,7 +86,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-3001
+3011
 </text>
 
 
@@ -115,7 +115,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-57
+58
 </text>
 
 
@@ -173,7 +173,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-38
+39
 </text>
 
 
@@ -202,7 +202,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-0 days
+1 days
 </text>
 
 
@@ -278,15 +278,15 @@ Top Languages
 <rect
 x="48.00"
 y="370"
-width="557.86"
+width="558.58"
 height="18"
 fill="#f1e05a"/>
 
 
 <rect
-x="605.86"
+x="606.58"
 y="370"
-width="266.96"
+width="266.24"
 height="18"
 fill="#3178c6"/>
 
@@ -294,37 +294,37 @@ fill="#3178c6"/>
 <rect
 x="872.82"
 y="370"
-width="25.09"
+width="25.10"
 height="18"
 fill="#e34c26"/>
 
 
 <rect
-x="897.91"
+x="897.92"
 y="370"
-width="24.12"
+width="24.19"
 height="18"
 fill="#563d7c"/>
 
 
 <rect
-x="922.04"
+x="922.12"
 y="370"
-width="18.91"
+width="18.86"
 height="18"
 fill="#3572A5"/>
 
 
 <rect
-x="940.94"
+x="940.97"
 y="370"
-width="8.37"
+width="8.35"
 height="18"
 fill="#41b883"/>
 
 
 <rect
-x="949.31"
+x="949.32"
 y="370"
 width="1.78"
 height="18"
@@ -377,7 +377,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-61.71%
+61.79%
 </text>
 
 
@@ -403,7 +403,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-29.53%
+29.45%
 </text>
 
 
@@ -455,7 +455,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-2.67%
+2.68%
 </text>
 
 
@@ -507,7 +507,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-0.93%
+0.92%
 </text>
 
 
