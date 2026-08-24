@@ -57,7 +57,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-2863
+2866
 </text>
 
 
@@ -86,7 +86,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-3021
+3024
 </text>
 
 
@@ -202,7 +202,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-1 days
+2 days
 </text>
 
 
@@ -278,61 +278,61 @@ Top Languages
 <rect
 x="48.00"
 y="370"
-width="560.52"
+width="562.53"
 height="18"
 fill="#f1e05a"/>
 
 
 <rect
-x="608.52"
+x="610.53"
 y="370"
-width="264.72"
+width="263.13"
 height="18"
 fill="#3178c6"/>
 
 
 <rect
-x="873.24"
+x="873.66"
 y="370"
-width="24.99"
+width="24.84"
 height="18"
 fill="#e34c26"/>
 
 
 <rect
-x="898.23"
+x="898.50"
 y="370"
-width="24.06"
+width="23.97"
 height="18"
 fill="#563d7c"/>
 
 
 <rect
-x="922.29"
+x="922.47"
 y="370"
-width="18.75"
+width="18.64"
 height="18"
 fill="#3572A5"/>
 
 
 <rect
-x="941.04"
+x="941.10"
 y="370"
-width="8.30"
+width="8.25"
 height="18"
 fill="#41b883"/>
 
 
 <rect
-x="949.34"
+x="949.35"
 y="370"
-width="1.77"
+width="1.76"
 height="18"
 fill="#da5b0b"/>
 
 
 <rect
-x="951.10"
+x="951.11"
 y="370"
 width="0.33"
 height="18"
@@ -377,7 +377,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-62.00%
+62.23%
 </text>
 
 
@@ -403,7 +403,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-29.28%
+29.11%
 </text>
 
 
@@ -429,7 +429,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-2.76%
+2.75%
 </text>
 
 
@@ -455,7 +455,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-2.66%
+2.65%
 </text>
 
 
@@ -481,7 +481,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-2.07%
+2.06%
 </text>
 
 
@@ -507,7 +507,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-0.92%
+0.91%
 </text>
 
 
@@ -533,7 +533,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-0.20%
+0.19%
 </text>
 
 
