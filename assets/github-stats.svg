@@ -57,7 +57,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-2883
+2886
 </text>
 
 
@@ -86,7 +86,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-3041
+3044
 </text>
 
 
@@ -278,61 +278,61 @@ Top Languages
 <rect
 x="48.00"
 y="370"
-width="579.98"
+width="582.38"
 height="18"
 fill="#f1e05a"/>
 
 
 <rect
-x="627.98"
+x="630.38"
 y="370"
-width="249.68"
+width="247.83"
 height="18"
 fill="#3178c6"/>
 
 
 <rect
-x="877.66"
+x="878.21"
 y="370"
-width="23.57"
+width="23.40"
 height="18"
 fill="#e34c26"/>
 
 
 <rect
-x="901.23"
+x="901.61"
 y="370"
-width="22.75"
+width="22.58"
 height="18"
 fill="#563d7c"/>
 
 
 <rect
-x="923.97"
+x="924.18"
 y="370"
-width="17.68"
+width="17.55"
 height="18"
 fill="#3572A5"/>
 
 
 <rect
-x="941.66"
+x="941.74"
 y="370"
-width="7.83"
+width="7.77"
 height="18"
 fill="#41b883"/>
 
 
 <rect
-x="949.49"
+x="949.51"
 y="370"
-width="1.67"
+width="1.65"
 height="18"
 fill="#da5b0b"/>
 
 
 <rect
-x="951.15"
+x="951.16"
 y="370"
 width="0.31"
 height="18"
@@ -340,7 +340,7 @@ fill="#178600"/>
 
 
 <rect
-x="951.46"
+x="951.47"
 y="370"
 width="0.23"
 height="18"
@@ -377,7 +377,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-64.16%
+64.42%
 </text>
 
 
@@ -403,7 +403,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-27.62%
+27.42%
 </text>
 
 
@@ -429,7 +429,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-2.61%
+2.59%
 </text>
 
 
@@ -455,7 +455,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-2.52%
+2.50%
 </text>
 
 
@@ -481,7 +481,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-1.96%
+1.94%
 </text>
 
 
@@ -507,7 +507,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-0.87%
+0.86%
 </text>
 
 
@@ -585,7 +585,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-0.03%
+0.02%
 </text>
 
 
