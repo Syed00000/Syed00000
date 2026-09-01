@@ -57,7 +57,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-2954
+2957
 </text>
 
 
@@ -86,7 +86,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-3112
+3115
 </text>
 
 
@@ -278,53 +278,53 @@ Top Languages
 <rect
 x="48.00"
 y="370"
-width="610.41"
+width="610.86"
 height="18"
 fill="#f1e05a"/>
 
 
 <rect
-x="658.41"
+x="658.86"
 y="370"
-width="226.12"
+width="225.78"
 height="18"
 fill="#3178c6"/>
 
 
 <rect
-x="884.53"
+x="884.63"
 y="370"
-width="21.35"
+width="21.31"
 height="18"
 fill="#e34c26"/>
 
 
 <rect
-x="905.88"
+x="905.95"
 y="370"
-width="20.74"
+width="20.71"
 height="18"
 fill="#563d7c"/>
 
 
 <rect
-x="926.62"
+x="926.66"
 y="370"
-width="16.02"
+width="15.99"
 height="18"
 fill="#3572A5"/>
 
 
 <rect
-x="942.64"
+x="942.65"
 y="370"
-width="7.09"
+width="7.08"
 height="18"
 fill="#41b883"/>
 
 
 <rect
-x="949.72"
+x="949.73"
 y="370"
 width="1.51"
 height="18"
@@ -377,7 +377,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-67.52%
+67.57%
 </text>
 
 
@@ -403,7 +403,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-25.01%
+24.98%
 </text>
 
 
