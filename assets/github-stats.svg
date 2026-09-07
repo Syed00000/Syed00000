@@ -57,7 +57,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-2996
+3002
 </text>
 
 
@@ -86,7 +86,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-3154
+3161
 </text>
 
 
@@ -278,61 +278,61 @@ Top Languages
 <rect
 x="48.00"
 y="370"
-width="628.71"
+width="630.02"
 height="18"
 fill="#f1e05a"/>
 
 
 <rect
-x="676.71"
+x="678.02"
 y="370"
-width="212.01"
+width="211.00"
 height="18"
 fill="#3178c6"/>
 
 
 <rect
-x="888.72"
+x="889.02"
 y="370"
-width="20.01"
+width="19.92"
 height="18"
 fill="#e34c26"/>
 
 
 <rect
-x="908.73"
+x="908.94"
 y="370"
-width="19.47"
+width="19.38"
 height="18"
 fill="#563d7c"/>
 
 
 <rect
-x="928.20"
+x="928.32"
 y="370"
-width="15.02"
+width="14.94"
 height="18"
 fill="#3572A5"/>
 
 
 <rect
-x="943.22"
+x="943.26"
 y="370"
-width="6.65"
+width="6.61"
 height="18"
 fill="#41b883"/>
 
 
 <rect
-x="949.87"
+x="949.88"
 y="370"
-width="1.42"
+width="1.41"
 height="18"
 fill="#da5b0b"/>
 
 
 <rect
-x="951.28"
+x="951.29"
 y="370"
 width="0.26"
 height="18"
@@ -340,7 +340,7 @@ fill="#178600"/>
 
 
 <rect
-x="951.54"
+x="951.55"
 y="370"
 width="0.19"
 height="18"
@@ -377,7 +377,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-69.55%
+69.69%
 </text>
 
 
@@ -403,7 +403,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-23.45%
+23.34%
 </text>
 
 
@@ -429,7 +429,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-2.21%
+2.20%
 </text>
 
 
@@ -455,7 +455,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-2.15%
+2.14%
 </text>
 
 
@@ -481,7 +481,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-1.66%
+1.65%
 </text>
 
 
@@ -507,7 +507,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-0.74%
+0.73%
 </text>
 
 
@@ -621,7 +621,7 @@ y="695"
 font-family="Arial,sans-serif"
 font-size="13"
 fill="#8b949e">
-Issues: 4 • Reviews: 3 • Languages: Public + Private
+Issues: 4 • Reviews: 4 • Languages: Public + Private
 </text>
 
 </svg>
