@@ -57,7 +57,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-3007
+3009
 </text>
 
 
@@ -86,7 +86,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-3168
+3170
 </text>
 
 
@@ -278,61 +278,61 @@ Top Languages
 <rect
 x="48.00"
 y="370"
-width="633.06"
+width="636.70"
 height="18"
 fill="#f1e05a"/>
 
 
 <rect
-x="681.06"
+x="684.70"
 y="370"
-width="208.66"
+width="205.85"
 height="18"
 fill="#3178c6"/>
 
 
 <rect
-x="889.72"
+x="890.56"
 y="370"
-width="19.70"
+width="19.43"
 height="18"
 fill="#e34c26"/>
 
 
 <rect
-x="909.42"
+x="909.99"
 y="370"
-width="19.16"
+width="18.91"
 height="18"
 fill="#563d7c"/>
 
 
 <rect
-x="928.58"
+x="928.89"
 y="370"
-width="14.78"
+width="14.58"
 height="18"
 fill="#3572A5"/>
 
 
 <rect
-x="943.36"
+x="943.47"
 y="370"
-width="6.54"
+width="6.45"
 height="18"
 fill="#41b883"/>
 
 
 <rect
-x="949.90"
+x="949.93"
 y="370"
-width="1.39"
+width="1.37"
 height="18"
 fill="#da5b0b"/>
 
 
 <rect
-x="951.29"
+x="951.30"
 y="370"
 width="0.26"
 height="18"
@@ -340,7 +340,7 @@ fill="#178600"/>
 
 
 <rect
-x="951.55"
+x="951.56"
 y="370"
 width="0.19"
 height="18"
@@ -348,7 +348,7 @@ fill="#b07219"/>
 
 
 <rect
-x="951.74"
+x="951.75"
 y="370"
 width="0.11"
 height="18"
@@ -377,7 +377,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-70.03%
+70.43%
 </text>
 
 
@@ -403,7 +403,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-23.08%
+22.77%
 </text>
 
 
@@ -429,7 +429,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-2.18%
+2.15%
 </text>
 
 
@@ -455,7 +455,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-2.12%
+2.09%
 </text>
 
 
@@ -481,7 +481,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-1.63%
+1.61%
 </text>
 
 
@@ -507,7 +507,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-0.72%
+0.71%
 </text>
 
 
