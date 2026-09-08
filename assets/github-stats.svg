@@ -57,7 +57,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-3005
+3007
 </text>
 
 
@@ -86,7 +86,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-3164
+3168
 </text>
 
 
@@ -202,7 +202,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-16 days
+17 days
 </text>
 
 
@@ -278,55 +278,55 @@ Top Languages
 <rect
 x="48.00"
 y="370"
-width="631.77"
+width="633.06"
 height="18"
 fill="#f1e05a"/>
 
 
 <rect
-x="679.77"
+x="681.06"
 y="370"
-width="209.65"
+width="208.66"
 height="18"
 fill="#3178c6"/>
 
 
 <rect
-x="889.42"
+x="889.72"
 y="370"
-width="19.79"
+width="19.70"
 height="18"
 fill="#e34c26"/>
 
 
 <rect
-x="909.21"
+x="909.42"
 y="370"
-width="19.25"
+width="19.16"
 height="18"
 fill="#563d7c"/>
 
 
 <rect
-x="928.47"
+x="928.58"
 y="370"
-width="14.85"
+width="14.78"
 height="18"
 fill="#3572A5"/>
 
 
 <rect
-x="943.32"
+x="943.36"
 y="370"
-width="6.57"
+width="6.54"
 height="18"
 fill="#41b883"/>
 
 
 <rect
-x="949.89"
+x="949.90"
 y="370"
-width="1.40"
+width="1.39"
 height="18"
 fill="#da5b0b"/>
 
@@ -377,7 +377,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-69.89%
+70.03%
 </text>
 
 
@@ -403,7 +403,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-23.19%
+23.08%
 </text>
 
 
@@ -429,7 +429,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-2.19%
+2.18%
 </text>
 
 
@@ -455,7 +455,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-2.13%
+2.12%
 </text>
 
 
@@ -481,7 +481,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-1.64%
+1.63%
 </text>
 
 
@@ -507,7 +507,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-0.73%
+0.72%
 </text>
 
 
@@ -621,7 +621,7 @@ y="695"
 font-family="Arial,sans-serif"
 font-size="13"
 fill="#8b949e">
-Issues: 4 • Reviews: 4 • Languages: Public + Private
+Issues: 4 • Reviews: 6 • Languages: Public + Private
 </text>
 
 </svg>
