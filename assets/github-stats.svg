@@ -57,7 +57,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-3111
+3113
 </text>
 
 
@@ -86,7 +86,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-3296
+3298
 </text>
 
 
@@ -202,7 +202,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-0 days
+1 days
 </text>
 
 
@@ -278,15 +278,15 @@ Top Languages
 <rect
 x="48.00"
 y="370"
-width="713.88"
+width="713.89"
 height="18"
 fill="#f1e05a"/>
 
 
 <rect
-x="761.88"
+x="761.89"
 y="370"
-width="145.54"
+width="145.53"
 height="18"
 fill="#3178c6"/>
 
