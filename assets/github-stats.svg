@@ -86,7 +86,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-3298
+3299
 </text>
 
 
@@ -115,7 +115,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-63
+64
 </text>
 
 
@@ -173,7 +173,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-43
+44
 </text>
 
 
@@ -202,7 +202,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-0 days
+1 days
 </text>
 
 
@@ -278,57 +278,65 @@ Top Languages
 <rect
 x="48.00"
 y="370"
-width="713.89"
+width="706.52"
 height="18"
 fill="#f1e05a"/>
 
 
 <rect
-x="761.89"
+x="754.52"
 y="370"
-width="145.53"
+width="143.88"
 height="18"
 fill="#3178c6"/>
 
 
 <rect
-x="907.42"
+x="898.40"
 y="370"
-width="14.36"
+width="17.80"
 height="18"
 fill="#e34c26"/>
 
 
 <rect
-x="921.78"
+x="916.20"
 y="370"
-width="13.77"
+width="17.08"
 height="18"
 fill="#563d7c"/>
 
 
 <rect
-x="935.55"
+x="933.27"
 y="370"
-width="10.31"
+width="10.19"
 height="18"
 fill="#3572A5"/>
 
 
 <rect
-x="945.86"
+x="943.46"
 y="370"
-width="4.56"
+width="4.51"
 height="18"
 fill="#41b883"/>
 
 
 <rect
-x="950.42"
+x="947.98"
 y="370"
-width="1.09"
+width="2.46"
 height="18"
 fill="#da5b0b"/>
+
+
+<rect
+x="950.44"
+y="370"
+width="1.07"
+height="18"
+fill="#178600"/>
 
 
 <rect
@@ -336,21 +344,13 @@ x="951.51"
 y="370"
 width="0.18"
 height="18"
-fill="#178600"/>
+fill="#b07219"/>
 
 
 <rect
 x="951.69"
 y="370"
 width="0.13"
-height="18"
-fill="#b07219"/>
-
-
-<rect
-x="951.82"
-y="370"
-width="0.08"
 height="18"
 fill="#701516"/>
 
@@ -377,7 +377,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-78.97%
+78.15%
 </text>
 
 
@@ -403,7 +403,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-16.10%
+15.92%
 </text>
 
 
@@ -429,7 +429,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-1.59%
+1.97%
 </text>
 
 
@@ -455,7 +455,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-1.52%
+1.89%
 </text>
 
 
@@ -481,7 +481,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-1.14%
+1.13%
 </text>
 
 
@@ -523,7 +523,7 @@ y="529"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#ffffff">
-Python
+Liquid
 </text>
 
 <text
@@ -533,7 +533,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-0.12%
+0.27%
 </text>
 
 
@@ -549,7 +549,7 @@ y="529"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#ffffff">
-PLpgSQL
+Python
 </text>
 
 <text
@@ -559,7 +559,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-0.02%
+0.12%
 </text>
 
 
@@ -575,7 +575,7 @@ y="567"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#ffffff">
-Batchfile
+PLpgSQL
 </text>
 
 <text
@@ -585,7 +585,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-0.01%
+0.02%
 </text>
 
 
@@ -601,7 +601,7 @@ y="567"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#ffffff">
-PowerShell
+Batchfile
 </text>
 
 <text
