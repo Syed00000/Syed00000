@@ -57,7 +57,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-3238
+3245
 </text>
 
 
@@ -86,7 +86,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-3432
+3440
 </text>
 
 
@@ -115,7 +115,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-67
+68
 </text>
 
 
@@ -173,7 +173,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-47
+48
 </text>
 
 
@@ -202,7 +202,7 @@ font-family="Arial,sans-serif"
 font-size="23"
 font-weight="700"
 fill="#ffffff">
-2 days
+3 days
 </text>
 
 
@@ -278,69 +278,69 @@ Top Languages
 <rect
 x="48.00"
 y="370"
-width="664.18"
+width="668.34"
 height="18"
 fill="#f1e05a"/>
 
 
 <rect
-x="712.18"
+x="716.34"
 y="370"
-width="128.92"
+width="126.61"
 height="18"
 fill="#3178c6"/>
 
 
 <rect
-x="841.09"
+x="842.95"
 y="370"
-width="46.28"
+width="45.50"
 height="18"
 fill="#e34c26"/>
 
 
 <rect
-x="887.38"
+x="888.45"
 y="370"
-width="26.63"
+width="26.23"
 height="18"
 fill="#563d7c"/>
 
 
 <rect
-x="914.00"
+x="914.68"
 y="370"
-width="20.73"
+width="20.36"
 height="18"
 fill="#3572A5"/>
 
 
 <rect
-x="934.74"
+x="935.04"
 y="370"
-width="9.13"
+width="8.97"
 height="18"
 fill="#41b883"/>
 
 
 <rect
-x="943.87"
+x="944.01"
 y="370"
-width="4.04"
+width="3.97"
 height="18"
 fill="#da5b0b"/>
 
 
 <rect
-x="947.91"
+x="947.98"
 y="370"
-width="3.65"
+width="3.59"
 height="18"
 fill="#178600"/>
 
 
 <rect
-x="951.56"
+x="951.57"
 y="370"
 width="0.16"
 height="18"
@@ -348,7 +348,7 @@ fill="#b07219"/>
 
 
 <rect
-x="951.72"
+x="951.73"
 y="370"
 width="0.12"
 height="18"
@@ -377,7 +377,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-73.47%
+73.93%
 </text>
 
 
@@ -403,7 +403,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-14.26%
+14.01%
 </text>
 
 
@@ -429,7 +429,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-5.12%
+5.03%
 </text>
 
 
@@ -455,7 +455,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-2.95%
+2.90%
 </text>
 
 
@@ -481,7 +481,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-2.29%
+2.25%
 </text>
 
 
@@ -507,7 +507,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-1.01%
+0.99%
 </text>
 
 
@@ -533,7 +533,7 @@ text-anchor="end"
 font-family="Arial,sans-serif"
 font-size="15"
 fill="#8b949e">
-0.45%
+0.44%
 </text>
 
 
